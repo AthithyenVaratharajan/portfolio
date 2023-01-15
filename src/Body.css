@@ -1,0 +1,80 @@
+.body {
+    padding: 100px;
+    background-image: url("https://pixahive.com/wp-content/uploads/2021/02/Purple-and-violet-background-wallpaper-318578-pixahive.jpg");
+    border-radius: 100px;
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.languages{
+    display: flex;
+    padding: 20px;
+}
+
+.languages img{
+    max-height: 100px;
+    padding: 20px;
+}
+
+.language1 img{
+    animation-name : mymove1;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 4s;
+  }
+
+  @keyframes mymove1 {
+    from {transform: translateY(20px);}
+    to {transform: translateY(0px);}
+  }
+
+  .language2 img{
+    animation-name : mymove2;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 3s;
+  }
+
+  @keyframes mymove2 {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }
+
+  .language3 img{
+    animation-name : mymove3;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 1s;
+  }
+
+  @keyframes mymove3 {
+    from {transform: translateY(20px);}
+    to {transform: translateY(0px);}
+  }
+  .language4 img{
+    animation-name : mymove4;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+  }
+
+  @keyframes mymove4 {
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+  }
+  .language5 img{
+    animation-name : mymove5;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 1.5s;
+  }
+
+  @keyframes mymove5 {
+    from {transform: translateY(20px);}
+    to {transform: translateY(0px);}
+  }
