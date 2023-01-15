@@ -5,7 +5,7 @@ import "./Contact.css";
 const Contact = () => {
     const MailTo = ({email, ...props}) => {
         return (
-            <a href={`mailto:${email}`}>
+            <a rel="noreferrer" href={`mailto:${email}`}>
                 {props.children}
             </a>
         )
@@ -16,18 +16,18 @@ const Contact = () => {
     <div className='contacts' id="contact" style={{height: 500}}>
         <h1>Contact</h1>
     <div className='logos'>
-        <a
+        <a rel="noreferrer"
         target="_blank"
          href='https://www.linkedin.com/in/athithyen-varatharajan-a10231260/'>
-            <img className='linkedin__logo' src='https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg' alt='linkedIn'/>
+            <img  className='linkedin__logo' src='https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg' alt='linkedIn'/>
         </a>
-        <a
+        <a rel="noreferrer"
         target="_blank"
          href='https://github.com/AthithyenVaratharajan'>
             <img className='github__logo' src='https://cdn.iconscout.com/icon/free/png-256/github-163-761603.png' alt='github'/>
         </a>
         <MailTo email="athithyensv@gmail.com">
-            <img  src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Mail.svg" ></img>
+            <img  alt="image" src="https://upload.wikimedia.org/wikipedia/commons/3/39/Google_Mail.svg" ></img>
         </MailTo>
 
     </div>
